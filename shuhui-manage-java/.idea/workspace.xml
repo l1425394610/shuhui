@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4d17736-4ec7-4d9f-ae44-52ac83923b9f" name="Changes" comment="SpringSecurity学习">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/config/SecurityConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mybatis Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lyj" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../apache-maven-3.8.1/mvn_resp/org/springframework/security/spring-security-config/5.3.9.RELEASE/spring-security-config-5.3.9.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="2UVDEUUJLFrVf03tD6yqVaZvxf7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_162" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/mapper/xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23546945" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\shuhui-manager-java\shuhui-sys\src\main\resources" />
+      <recent name="D:\workSpace\shuhui-manager-java\shuhui-manager-platform\src\main\resources" />
+      <recent name="D:\workSpace\shuhui-manager-java\shuhui-manager-biz\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.shuhui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShuhuiSysApplication">
+    <configuration name="ShuhuiSysApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shuhui-sys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.shuhui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.shuhui" />
+      <option name="MAIN_CLASS_NAME" value="cn.shuhui.ShuhuiSysApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuhuiSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shuhui-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.shuhui.ShuhuiSysApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ShuhuiSysApplicationTests.test1" />
+      <item itemvalue="Spring Boot.ShuhuiSysApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShuhuiSysApplicationTests.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4d17736-4ec7-4d9f-ae44-52ac83923b9f" name="Changes" comment="" />
+      <created>1693015743120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693015743120</updated>
+      <workItem from="1693015744576" duration="2877000" />
+      <workItem from="1693062832183" duration="2239000" />
+      <workItem from="1693065331117" duration="2638000" />
+      <workItem from="1693131127214" duration="5014000" />
+      <workItem from="1693142295812" duration="4571000" />
+      <workItem from="1693231797715" duration="1952000" />
+      <workItem from="1693233793470" duration="1213000" />
+      <workItem from="1693316317794" duration="4251000" />
+      <workItem from="1693391826171" duration="324000" />
+      <workItem from="1693402948496" duration="6555000" />
+      <workItem from="1693490892294" duration="3504000" />
+      <workItem from="1693657584861" duration="62000" />
+      <workItem from="1693657672210" duration="2482000" />
+      <workItem from="1693667614989" duration="2118000" />
+      <workItem from="1693722301488" duration="5888000" />
+      <workItem from="1693839418168" duration="883000" />
+      <workItem from="1694097766496" duration="3420000" />
+      <workItem from="1694250716566" duration="644000" />
+      <workItem from="1694335004419" duration="3112000" />
+      <workItem from="1694442250032" duration="2531000" />
+      <workItem from="1694527749473" duration="2409000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改分支">
+      <created>1693101677884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693101677884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SpringSecurity学习">
+      <created>1693408938177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693408938177</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SpringSecurity学习">
+      <created>1694337993907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694337993907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改分支" />
+    <MESSAGE value="SpringSecurity学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity学习" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

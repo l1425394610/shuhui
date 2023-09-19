@@ -1,0 +1,30 @@
+Index: shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.shuhui.modular.user.controller;\r\n\r\npublic class SysUserController {\r\n}\r\n
+===================================================================
+diff --git a/shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java b/shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java
+--- a/shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java	
++++ b/shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java	
+@@ -1,4 +1,21 @@
+ package cn.shuhui.modular.user.controller;
+ 
++import cn.shuhui.modular.user.entity.SysUser;
++import io.swagger.annotations.Api;
++import io.swagger.annotations.ApiOperation;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
++import org.springframework.web.bind.annotation.RestController;
++
++@Api("用户模块")
++@RestController
+ public class SysUserController {
++
++
++    @ApiOperation("测试接口")
++    @PostMapping("/test")
++    public void test(@RequestBody SysUser sysUser){
++        System.out.println("123");
++    }
++
+ }
