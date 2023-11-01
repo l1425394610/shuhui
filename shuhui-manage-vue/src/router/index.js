@@ -25,13 +25,13 @@ const router = new VueRouter({
       ]
     },
     {
-      path: '/tourist',
+      path: '/dictionary',
       component: Layout,
-      redirect: '/tourist/index',
+      redirect: '/dictionary/index',
       children: [
         {
-          path: '/tourist/index',
-          component: () => import('../view/tourist/index.vue')
+          path: '/dictionary/index',
+          component: () => import('../view/dictionary/index.vue')
         }
       ]
     },

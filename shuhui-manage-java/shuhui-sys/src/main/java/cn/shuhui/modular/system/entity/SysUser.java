@@ -1,11 +1,9 @@
-package cn.shuhui.modular.user.entity;
+package cn.shuhui.modular.system.entity;
 
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import io.swagger.annotations.ApiOperation;
 import lombok.Data;
 
 import java.util.Date;

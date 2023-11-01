@@ -1,13 +1,11 @@
-package cn.shuhui.modular.user.service.impl;
+package cn.shuhui.modular.system.service.impl;
 
 import cn.shuhui.factory.PageFactory;
-import cn.shuhui.modular.user.entity.SysUser;
-import cn.shuhui.modular.user.mapper.SysUserMapper;
-import cn.shuhui.modular.user.service.SysUserService;
+import cn.shuhui.modular.system.entity.SysUser;
+import cn.shuhui.modular.system.mapper.SysUserMapper;
+import cn.shuhui.modular.system.service.SysUserService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

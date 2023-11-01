@@ -5,7 +5,7 @@
     <template v-for="item in menuList">
       <el-menu-item v-if="!item.children" :index="item.path">
         <template slot="title">
-          <span>首页</span>
+          <span>{{ item.name }}</span>
         </template>
       </el-menu-item>
 
@@ -50,7 +50,12 @@ export default {
               ]
             }
           ]
-        }
+        },
+        {
+          name: '数据字典',
+          path: '/dictionary/index',
+          children: null
+        },
       ]
     }
   },

@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d17736-4ec7-4d9f-ae44-52ac83923b9f" name="Changes" comment="SpringSecurity学习">
+      <change afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/entity/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysDictTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysDictData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysDictType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/SysDictDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/SysDictTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/xml/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/xml/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/param/SysDictTypeParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/SysDictTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/impl/SysDictTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2891fa2e-45c9-4024-9d8a-be1d51cca3b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2891fa2e-45c9-4024-9d8a-be1d51cca3b6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/factory/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/factory/PageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/ShuhuiSysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/ShuhuiSysApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/mapper/xml/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/test/java/cn/shuhui/ShuhuiSysApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/test/java/cn/shuhui/ShuhuiSysApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Mybatis Mapper" />
         <option value="Interface" />
+        <option value="Mybatis Mapper" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -28,10 +58,7 @@
         <entry key="$PROJECT_DIR$" value="lyj" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../apache-maven-3.8.1/mvn_resp/org/springframework/security/spring-security-config/5.3.9.RELEASE/spring-security-config-5.3.9.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java" root0="FORCE_HIGHLIGHTING" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -60,12 +87,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_162" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/user/mapper/xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23546945" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -74,6 +101,9 @@
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.shuhui.modular.system.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workSpace\shuhui-manager-java\shuhui-sys\src\main\resources" />
       <recent name="D:\workSpace\shuhui-manager-java\shuhui-manager-platform\src\main\resources" />
@@ -81,6 +111,10 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.shuhui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.shuhui.modular.system.mapper" />
+      <recent name="cn.shuhui.modular.system.entity" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShuhuiSysApplication">
@@ -148,6 +182,9 @@
       <workItem from="1694335004419" duration="3112000" />
       <workItem from="1694442250032" duration="2531000" />
       <workItem from="1694527749473" duration="2409000" />
+      <workItem from="1695562542813" duration="3088000" />
+      <workItem from="1695650322501" duration="92000" />
+      <workItem from="1698847664203" duration="4250000" />
     </task>
     <task id="LOCAL-00001" summary="修改分支">
       <created>1693101677884</created>
@@ -189,6 +226,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="修改分支" />
     <MESSAGE value="SpringSecurity学习" />
     <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity学习" />

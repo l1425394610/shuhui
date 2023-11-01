@@ -1,18 +1,17 @@
-package cn.shuhui.modular.user.controller;
+package cn.shuhui.modular.system.controller;
 
 
-import cn.shuhui.modular.user.entity.SysUser;
-import cn.shuhui.modular.user.service.SysUserService;
+import cn.shuhui.modular.system.entity.SysUser;
+import cn.shuhui.modular.system.service.SysUserService;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+
 @Api("用户模块")
+@RestController
 public class SysUserController {
     @Autowired
     private SysUserService sysUserService;
