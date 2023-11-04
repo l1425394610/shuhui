@@ -2,6 +2,7 @@ package cn.shuhui.modular.system.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @ApiModel("字典数据")
@@ -9,9 +10,23 @@ import lombok.Data;
 @Data
 public class SysDictData {
 
-  private Integer id;
-  private Integer type;
+
+  @ApiModelProperty("类型id")
+  private Integer typeId;
+
+  @ApiModelProperty("名称")
   private String text;
+
+  @ApiModelProperty("编码")
   private Integer code;
+
+  @ApiModelProperty("排序吗")
+  private Integer sortCode;
+
+  @ApiModelProperty("描述")
+  private String description;
+
+  @ApiModelProperty("状态")
+  private Integer status;
 
 }

@@ -5,13 +5,10 @@ spring:
     name: shuhui-manager
   profiles:
     active: dev
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
-  mapper-locations: classpath:cn/shuhui/modular/**/mapper/xml/*.xml
+  mapper-locations: classpath*:cn/shuhui/**/mapping/*.xml
 knife4j:
   enable: true
   setting:

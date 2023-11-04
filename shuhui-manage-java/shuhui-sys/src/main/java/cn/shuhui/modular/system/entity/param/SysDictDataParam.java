@@ -1,16 +1,17 @@
-package cn.shuhui.modular.system.entity;
+package cn.shuhui.modular.system.entity.param;
 
 import cn.shuhui.entity.BasicEntity;
-import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-@ApiModel(value = "字典类型")
-@TableName("sys_dict_type")
+/**
+ * @author luyingjian
+ * @date 2023/11/1
+ */
+@ApiModel(value = "数据字典Param")
 @Data
-public class SysDictType extends BasicEntity {
-
+public class SysDictDataParam extends BasicEntity {
     @ApiModelProperty("名称")
     private String name;
 
@@ -23,7 +24,6 @@ public class SysDictType extends BasicEntity {
     @ApiModelProperty("描述")
     private String description;
 
-
-
-
+    @ApiModelProperty("状态")
+    private Integer status;
 }

@@ -16,8 +16,6 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
     @Override
     public Page<SysUser> page() {
         LambdaQueryWrapper<SysUser> queryWrapper = new LambdaQueryWrapper<>();
-        Page page = PageFactory.getPageData();
-        page.setSearchCount(false);
-        return getBaseMapper().selectPage(page, queryWrapper);
+        return getBaseMapper().selectPage(PageFactory.PageData(), queryWrapper);
     }
 }

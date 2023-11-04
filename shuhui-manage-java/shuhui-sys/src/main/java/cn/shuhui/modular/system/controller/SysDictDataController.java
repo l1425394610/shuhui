@@ -11,10 +11,10 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@Api(tags = "数据字典类型接口")
+@Api(tags = "数据字典接口")
 @RestController
-@RequestMapping("/sysDictType")
-public class SysDictTypeController {
+@RequestMapping("/sysDictData")
+public class SysDictDataController {
 
     @Autowired
     private SysDictTypeService dictTypeService;

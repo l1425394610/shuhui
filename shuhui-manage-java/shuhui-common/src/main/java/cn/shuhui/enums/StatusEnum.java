@@ -1,5 +1,7 @@
 package cn.shuhui.enums;
 
+import lombok.Data;
+
 /**
  * @author luyingjian
  * @date 2023/11/1
@@ -17,6 +19,14 @@ public enum StatusEnum {
     StatusEnum(String text, Integer code) {
         this.text = text;
         this.code = code;
+    }
+
+    public Integer getCode(){
+        return code;
+    }
+
+    public String getText(){
+        return text;
     }
 
 }

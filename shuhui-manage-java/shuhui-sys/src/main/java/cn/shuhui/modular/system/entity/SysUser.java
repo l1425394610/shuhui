@@ -7,15 +7,11 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.util.Date;
-
-@ApiModel("用户")
+@ApiModel(value = "用户类",description = "用户实体类")
 @TableName("sys_user")
 @Data
 public class SysUser {
 
-
-    @ApiModelProperty("id")
-    private Integer id;
 
     @ApiModelProperty("账号")
     private String account;

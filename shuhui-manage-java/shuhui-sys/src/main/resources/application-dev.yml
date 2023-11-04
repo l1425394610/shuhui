@@ -1,6 +1,5 @@
 spring:
-  profiles:
-    active: @spring.active@
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver

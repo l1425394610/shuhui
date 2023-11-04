@@ -13,7 +13,7 @@ public class PageFactory {
     // 默认每页数据量
     private static final Integer PAGE_SIZE = 10;
 
-    public static Page getPageData() {
+    public static Page PageData() {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
 
         Integer pageNum = Convert.toInt(request.getParameter("pageNum"));
