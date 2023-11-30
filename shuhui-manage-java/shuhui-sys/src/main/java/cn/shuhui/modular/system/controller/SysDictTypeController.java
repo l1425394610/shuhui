@@ -28,19 +28,19 @@ public class SysDictTypeController {
 
     @ApiOperation("新增")
     @PostMapping("/add")
-    public ResponseData add(@RequestBody SysDictTypeParam sysDictTypeParam) {
+    public ResponseData<Boolean> add(@RequestBody SysDictTypeParam sysDictTypeParam) {
         return ResponseData.success(dictTypeService.add(sysDictTypeParam));
     }
 
     @ApiOperation("编辑")
     @PostMapping("/edit")
-    public ResponseData edit() {
+    public ResponseData<Boolean> edit() {
         return ResponseData.success();
     }
 
     @ApiOperation("删除")
-    @GetMapping("/delete")
-    public ResponseData delete() {
+    @PostMapping("/delete")
+    public ResponseData<Boolean> delete() {
         return ResponseData.success();
     }
 }

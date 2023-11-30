@@ -1,88 +1,61 @@
 <template>
-  <el-menu @open="handleOpen" @close="handleClose" style="height: 100vh;" background-color="#304156" text-color="#bfcbd9"
-    active-text-color="#409EFF" router>
+  <el-menu style='height: 100vh' background-color='#304156' text-color='#bfcbd9' active-text-color='#409EFF' router
+    @open='handleOpen' @close='handleClose'>
+    <template v-for='(item, index) in menuList'>
+      <sub-menu v-if='item.children && item.children.length > 0' :key='index' :menu='item' />
 
-    <template v-for="item in menuList">
-      <el-menu-item v-if="!item.children" :index="item.path">
-        <template slot="title">
-          <span>{{ item.name }}</span>
+      <el-menu-item v-else :key='index' :index='item.path'>
+        <template slot='title'>
+          <span>{{ item.title }}</span>
         </template>
       </el-menu-item>
-
-      <sub-menu v-else :menu="item"></sub-menu>
-
     </template>
   </el-menu>
 </template>
 
 <script>
 import SubMenu from './subMenu.vue'
+import { tree } from '@/api/sys/menu'
+import router from '@/router/index'
+import { generateDynamicMenu } from '@/api/sys/menu'
+
 export default {
   components: {
     SubMenu
   },
   data() {
     return {
-      menuList: [
-        {
-          name: '首页',
-          path: '/home/index',
-          children: null
-        },
-        {
-          name: '权限管理',
-          path: '/permission',
-          children: [
-            {
-              name: '角色管理',
-              path: '/permission/role',
-              children: null
-            },
-            {
-              name: '用户管理',
-              path: '/permission/user',
-              children: [
-                {
-                  name: '测试',
-                  path: '/permission/role',
-                  children: null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          name: '数据字典',
-          path: '/dictionary/index',
-          children: null
-        },
-      ]
+      menuList: []
     }
   },
+  computed: {},
+  created() {
+    this.init()
+  },
   methods: {
-    handleOpen() {
-
+    init() {
+      tree().then(res => {
+        this.menuList = res.data.data
+        let data = []
+        generateDynamicMenu(this.menuList, data)
+        console.log(data)
+        for (let i = 0; i < data.length; i++) {
+          router.addRoute(data[i])
+        }
+        for (const item of data) {
+          router.addRoute(item)
+        }
+        // data.forEach(item => {
+        //   router.addRoute(item)
+        // })
+        // console.log(router)
+        console.log(router.getRoutes())
+      })
     },
-    handleClose() {
-
-    }
+    handleOpen() { },
+    handleClose() { }
   }
 }
 </script>
 
-<style scoped>
-.el-submenu {
-  .el-menu-item {
-    /* background: #283847 !important; */
-    background: #1f2d3d;
-
-  }
-
-  .el-menu-item:hover {
-    /* background: #283847 !important; */
-    background: rgb(0, 21, 40);
-
-  }
-
-}
-</style>
+<style scoped></style>

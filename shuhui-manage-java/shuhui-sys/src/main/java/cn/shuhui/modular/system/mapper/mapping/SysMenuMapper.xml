@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.shuhui.modular.system.mapper.SysMenuMapper">
+
+
+    <select id="page" resultType="cn.shuhui.modular.system.entity.SysMenu">
+        select * from sys_menu
+    </select>
+
+
+</mapper>

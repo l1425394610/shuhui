@@ -5,9 +5,11 @@
     </el-aside>
     <el-container style="padding: 0;">
 
-      <el-header style="background-color: orange;padding: 0;" height="60px" ></el-header>
+      <el-header style="background-color: orange;padding: 0;" height="60px"></el-header>
 
-      <el-main style="background-color: grey;"><router-view style="padding: 0;"></router-view></el-main>
+      <el-main style="background-color: grey;">
+        <router-view style="padding: 0;"></router-view>
+      </el-main>
 
     </el-container>
   </el-container>
@@ -23,6 +25,4 @@ export default {
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

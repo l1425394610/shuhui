@@ -4,26 +4,26 @@
       <span>{{ props.menu.name }}</span>
     </template>
 
-    <template v-for="item in props.menu.children">
-      <el-menu-item v-if="!item.children" :index="item.path">
+    <template v-for="(item, index) in props.menu.children">
+      <el-menu-item
+        v-if="!item.children"
+        :key="index"
+        :index="item.path"
+      >
         <template slot="title">
-          <span>{{ item.name }}</span>
+          <span>{{ item.title }}</span>
         </template>
       </el-menu-item>
 
-      <sub-menu v-else :menu="item"></sub-menu>
+      <sub-menu
+        v-else
+        :key="index"
+        :menu="item"
+      />
     </template>
-
-
   </el-submenu>
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
-
-
-
-
-

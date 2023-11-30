@@ -27,7 +27,7 @@ public class BasicEntity {
 
     @ApiModelProperty("创建时间")
     @TableField(fill = FieldFill.INSERT)
-    @JsonFormat
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     private LocalDateTime createTime;
 
     @ApiModelProperty("创建人")
@@ -36,6 +36,7 @@ public class BasicEntity {
 
 
     @ApiModelProperty("修改时间")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     @TableField(fill = FieldFill.UPDATE)
     private LocalDateTime updateTime;
 

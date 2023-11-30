@@ -1,24 +1,22 @@
 package cn.shuhui.enums;
 
 import io.swagger.annotations.ApiModel;
-import lombok.Data;
 
 /**
  * @author luyingjian
- * @date 2023/11/1
+ * @date 2023/11/5
  */
-@ApiModel("状态枚举")
-public enum StatusEnum {
+@ApiModel("菜单类型枚举")
+public enum MenuTypeEnum {
 
-    ENABLED("启用", 0),
-    DISABLED("禁用", 1),
-    DELETED("删除", 2);
-
+    BUTTON("按钮",0),
+    MENU("菜单",1),
+    DIRECTORY("目录",2);
 
     private String text;
     private Integer code;
 
-    StatusEnum(String text, Integer code) {
+    MenuTypeEnum(String text, Integer code) {
         this.text = text;
         this.code = code;
     }
@@ -30,5 +28,4 @@ public enum StatusEnum {
     public String getText(){
         return text;
     }
-
 }

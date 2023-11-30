@@ -6,6 +6,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 @ApiModel(value = "用户类",description = "用户实体类")
 @TableName("sys_user")
@@ -29,9 +30,6 @@ public class SysUser {
     private Integer age;
 
     @ApiModelProperty("出生日期")
-    private Date birth;
-
-    @ApiModelProperty("创建时间")
-    private Date createTime;
+    private LocalDateTime birth;
 
 }
