@@ -10,9 +10,9 @@ import lombok.Data;
 @ApiModel("状态枚举")
 public enum StatusEnum {
 
-    ENABLED("启用", 0),
-    DISABLED("禁用", 1),
-    DELETED("删除", 2);
+    ENABLED("启用", 1),
+    DISABLED("禁用", 2),
+    DELETED("删除", 3);
 
 
     private String text;

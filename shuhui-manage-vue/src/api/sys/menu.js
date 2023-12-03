@@ -1,4 +1,6 @@
 import axios from '@/utils/request'
+import layout from '@/layout/index'
+import router from '@/router/index'
 
 export function tree() {
   return axios({
@@ -7,48 +9,32 @@ export function tree() {
   })
 }
 
-export function generateDynamicMenu(menuList, routes) {
-  // for (let i = 0; i < menuList.length; i++) {
-  //   // 创建顶级路由信息
-  //   let route = getRoute(menuList[i])
-  //   routes.push(route)
-  //   // 判断是否有子路由
-  //   if (menuList[i].children && menuList[i].children.length > 0) {
-  //     generateDynamicMenu(menuList[i].children, route.children)
-  //   }
-  // }
-
+export function generateRoute(menuList) {
   for (const item of menuList) {
     // 创建顶级路由信息
-    let route = getRoute(item)
-    routes.push(route)
+    if (item.type === 2) {
+      console.log(1)
+      const route = getRoute(item)
+      router.addRoute(route)
+    }
     // 判断是否有子路由
     if (item.children && item.children.length > 0) {
-      generateDynamicMenu(item.children, route.children)
+      generateRoute(item.children)
     }
   }
 }
 
 function getRoute(item) {
   let route = {
-    path: item.path,
-    name: item.title,
-    component: () => renderComponent(item.component),
-    meta: {
-      id: item.id,
-      icon: item.icon,
-      title: item.title
-    },
-    children: []
+    component: () => import('@/layout/index.vue'),
+    path: '/',
+    redirect: item.path,
+    children: [
+      {
+        component: (resolve) => require([`@/views/${item.component}`], resolve),
+        path: item.path
+      }
+    ]
   }
   return route
-}
-
-
-function renderComponent(component) {
-  if (component) {
-    return (resolve) => require([`@/views${component}`], resolve)
-  } else {
-    return null
-  }
 }

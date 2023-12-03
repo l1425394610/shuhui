@@ -7,7 +7,7 @@
     <template v-for="(item, index) in props.menu.children">
       <el-menu-item
         v-if="!item.children"
-        :key="index"
+        :key="item.id"
         :index="item.path"
       >
         <template slot="title">
@@ -17,7 +17,7 @@
 
       <sub-menu
         v-else
-        :key="index"
+        :key="item.id"
         :menu="item"
       />
     </template>

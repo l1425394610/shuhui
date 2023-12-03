@@ -19,9 +19,6 @@ public class SysMenu extends BasicEntity {
     @ApiModelProperty("标题")
     private String title;
 
-    @ApiModelProperty("编码")
-    private String code;
-
     @ApiModelProperty("类型")
     private Long type;
 
@@ -35,7 +32,7 @@ public class SysMenu extends BasicEntity {
     private String icon;
 
     @ApiModelProperty("排序码")
-    private String sortCode;
+    private Integer sortCode;
 
 
 }

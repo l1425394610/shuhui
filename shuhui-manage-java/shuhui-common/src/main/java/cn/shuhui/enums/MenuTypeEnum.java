@@ -9,9 +9,9 @@ import io.swagger.annotations.ApiModel;
 @ApiModel("菜单类型枚举")
 public enum MenuTypeEnum {
 
-    BUTTON("按钮",0),
-    MENU("菜单",1),
-    DIRECTORY("目录",2);
+    BUTTON("按钮",1),
+    MENU("菜单",2),
+    DIRECTORY("目录",3);
 
     private String text;
     private Integer code;

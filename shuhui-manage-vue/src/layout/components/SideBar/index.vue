@@ -2,9 +2,9 @@
   <el-menu style='height: 100vh' background-color='#304156' text-color='#bfcbd9' active-text-color='#409EFF' router
     @open='handleOpen' @close='handleClose'>
     <template v-for='(item, index) in menuList'>
-      <sub-menu v-if='item.children && item.children.length > 0' :key='index' :menu='item' />
+      <sub-menu v-if='item.children && item.children.length > 0' :key='item.id' :menu='item' />
 
-      <el-menu-item v-else :key='index' :index='item.path'>
+      <el-menu-item v-else :key='item.id' :index='item.path'>
         <template slot='title'>
           <span>{{ item.title }}</span>
         </template>
@@ -16,8 +16,8 @@
 <script>
 import SubMenu from './subMenu.vue'
 import { tree } from '@/api/sys/menu'
+import { generateRoute } from '@/api/sys/menu'
 import router from '@/router/index'
-import { generateDynamicMenu } from '@/api/sys/menu'
 
 export default {
   components: {
@@ -36,19 +36,7 @@ export default {
     init() {
       tree().then(res => {
         this.menuList = res.data.data
-        let data = []
-        generateDynamicMenu(this.menuList, data)
-        console.log(data)
-        for (let i = 0; i < data.length; i++) {
-          router.addRoute(data[i])
-        }
-        for (const item of data) {
-          router.addRoute(item)
-        }
-        // data.forEach(item => {
-        //   router.addRoute(item)
-        // })
-        // console.log(router)
+        generateRoute(this.menuList)
         console.log(router.getRoutes())
       })
     },
