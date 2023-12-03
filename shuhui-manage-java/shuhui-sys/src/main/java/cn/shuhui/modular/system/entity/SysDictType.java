@@ -17,9 +17,6 @@ public class SysDictType extends BasicEntity {
     @ApiModelProperty("编码")
     private String code;
 
-    @ApiModelProperty("排序码")
-    private Integer sortCode;
-
     @ApiModelProperty("描述")
     private String description;
 

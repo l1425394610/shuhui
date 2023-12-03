@@ -1,5 +1,4 @@
 import axios from '@/utils/request'
-import layout from '@/layout/index'
 import router from '@/router/index'
 
 export function tree() {

@@ -13,11 +13,14 @@ public class PageFactory {
     // 默认每页数据量
     private static final Integer PAGE_SIZE = 10;
 
+
     public static Page PageData() {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
-
-        Integer pageNum = Convert.toInt(request.getParameter("pageNum"));
-        Integer pageSize = Convert.toInt(request.getParameter("pageSize"));
+        Integer pageNum = 1;
+        Integer pageSize = 10;
+        if (ObjectUtil.isNotEmpty(request.getParameter("pageNum"))) {
+            pageNum = Convert.toInt(request.getParameter("pageNum"));
+        }
 
         return new Page(pageNum, ObjectUtil.isEmpty(pageSize) ? PAGE_SIZE : pageSize);
     }

@@ -3,6 +3,7 @@ package cn.shuhui.enums;
 import io.swagger.annotations.ApiModel;
 
 /**
+ * 菜单类型
  * @author luyingjian
  * @date 2023/11/5
  */

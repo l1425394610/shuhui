@@ -4,7 +4,7 @@
       <span>{{ props.menu.name }}</span>
     </template>
 
-    <template v-for="(item, index) in props.menu.children">
+    <template v-for="item in props.menu.children">
       <el-menu-item
         v-if="!item.children"
         :key="item.id"
