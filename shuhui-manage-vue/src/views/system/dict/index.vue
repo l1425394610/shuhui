@@ -61,8 +61,8 @@ export default {
         this.dictData = res.data.data.records
       })
     },
-    handleEdit(record){},
-    handleDelete(record){}
+    handleEdit(record) {},
+    handleDelete(record) {}
   }
 }
 </script>

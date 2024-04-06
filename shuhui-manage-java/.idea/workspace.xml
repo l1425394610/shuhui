@@ -4,49 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4d17736-4ec7-4d9f-ae44-52ac83923b9f" name="Changes" comment="完善数据字典">
-      <change afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/MenuTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysRoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/param/SysMenuParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/mapper/mapping/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+    <list default="true" id="c4d17736-4ec7-4d9f-ae44-52ac83923b9f" name="Changes" comment="数据字典">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2891fa2e-45c9-4024-9d8a-be1d51cca3b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2891fa2e-45c9-4024-9d8a-be1d51cca3b6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_8_27_10_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_8_27_10_00__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/entity/BasicEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/entity/BasicEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/SqlAffectedRowsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/SqlAffectedRowsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/StatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-common/src/main/java/cn/shuhui/enums/StatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-common/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysDictDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysDictDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysDictTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/controller/SysDictTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysDictType.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysDictType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/subMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/layout/components/SideBar/subMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/admin/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/home/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/login/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/loginSuccess/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/permission/role.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/permission/user.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/tourist/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/src/view/user/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shuhui-manage-vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shuhui-manage-vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/ShuhuiSysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/ShuhuiSysApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuhui-sys/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shuhui-sys/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -57,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -65,45 +42,40 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="localRepository" value="D:\workspace\apache-maven-3.6.3\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\workspace\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="dev" />
-      </list>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2UVDEUUJLFrVf03tD6yqVaZvxf7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_162" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shuhui-sys/src/main/java/cn/shuhui/modular/system/entity" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.23546945" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -132,7 +104,7 @@
       <recent name="cn.shuhui.modular.system.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShuhuiSysApplication">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.shuhui.Test1" />
       <module name="shuhui-sys" />
@@ -174,7 +146,6 @@
     <list>
       <item itemvalue="Application.Test1" />
       <item itemvalue="JUnit.ShuhuiSysApplicationTests.test1" />
-      <item itemvalue="Spring Boot.ShuhuiSysApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -224,6 +195,8 @@
       <workItem from="1699971912678" duration="25000" />
       <workItem from="1699971964835" duration="1613000" />
       <workItem from="1701266759124" duration="1662000" />
+      <workItem from="1701611378642" duration="4751000" />
+      <workItem from="1701616550138" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="修改分支">
       <created>1693101677884</created>
@@ -260,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699105122606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="动态路由">
+      <created>1701613862256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701613862256</updated>
+    </task>
+    <task id="LOCAL-00007" summary="数据字典">
+      <created>1701616027113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701616027113</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +263,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -284,9 +270,10 @@
     </ignored-roots>
     <MESSAGE value="修改分支" />
     <MESSAGE value="SpringSecurity学习" />
-    <MESSAGE value="数据字典" />
     <MESSAGE value="完善数据字典" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善数据字典" />
+    <MESSAGE value="动态路由" />
+    <MESSAGE value="数据字典" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据字典" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

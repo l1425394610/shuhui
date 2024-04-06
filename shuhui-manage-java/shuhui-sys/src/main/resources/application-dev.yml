@@ -1,12 +1,7 @@
 spring:
-
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/shuhui?characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
     password: root
-  redis:
-    host: 49.235.142.202
-    port: 6379
-    password: luyingjian
